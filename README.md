@@ -19,6 +19,8 @@ Since HTML is just a text file, you can use any text editor. You can just use no
 
 You will also need to commit the changes with Git. You can do this by downloading [GitHub Desktop](https://desktop.github.com/) and getting confused a lot. You can also use many other methods and get confused a bunch more.
 
+If you want to see what the site looks like online, push the changes to the GitHub, and then visit <https://github.com/sewyn/sewyn.github.io/actions>. When the task is complete, it will be live on <https://sewyn.github.io/>.
+
 ### Online
 
 Press `.` when on the GitHub page to open the web editor. This has the editor (first tab on left) for editing, and a Git tab (third tab on left) for committing the changes to the GitHub repository.
