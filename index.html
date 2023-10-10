@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- the title of the browser tab -->
+    <title>cryptid hunt</title>
+    <!-- character set -->
+    <meta charset="utf-8" />
+    <!-- make it look normal on phones -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- open graph metadata - for link previews on twitter/discord/etc -->
+    <!-- https://ogp.me/ -->
+    <!-- to see what it looks like you can use -->
+    <!-- https://chrome.google.com/webstore/detail/ograph-previewer/ggcfeakcnodgcmmllfdbmngekljbhiim -->
+    <meta property="og:title" content="cryptid hunt" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sewyn.github.io" />
+    <meta
+      property="og:image"
+      content="https://sewyn.github.io/images/og-image.png"
+    />
+    <meta
+      property="og:description"
+      content="Pages from the first issue of Cryptid Hunt"
+    />
+    <meta property="og:locale" content="en_GB" />
+
+    <!-- favicon - the little image in the browser tab -->
+    <!-- use https://favicon.io/ to generate .ico files from .png/etc files -->
+    <link rel="icon" href="/images/favicon.ico" />
+    <!-- fonts from google fonts-->
+    <!-- https://developers.google.com/fonts/docs/css2 -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Grenze+Gotisch"
+    />
+
+    <!-- stylesheet, for customising fonts/spacing/layout/etc -->
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #121212;
+        color: #f5f5f5;
+        background-image: url("images/background.svg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: "Grenze Gotisch", cursive;
+      }
+      header {
+        text-align: center;
+      }
+      footer {
+        text-align: center;
+        margin-top: 6em;
+        margin-bottom: 2em;
+      }
+      main {
+        max-width: 40rem;
+        margin: 0 auto;
+        padding: 0 1em;
+        /* centre items */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      img {
+        max-width: 100%;
+        width: min(100%, 25rem);
+      }
+      hr {
+        height: 1px;
+        width: 80%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>cryptid hunt</h1>
+    </header>
+    <main>
+      <p>
+        I'm currently working on the first issue of Cryptid Hunt and working
+        through
+        <a href="https://www.instagram.com/p/CxD1qw8u9Ed/?img_index=1">
+          @magsmunroe</a
+        >'s Inktober prompt list.
+      </p>
+
+      <h2>Days</h2>
+
+      <!-- the "id" means if you go to "sewyn.github.io#day1" it auto-scrolls to whatever element has that id (hash scroll) -->
+      <h3 id="day1">DAY 1 - SOUR CANDY</h3>
+      <img src="images/cryptidhunt_day1.jpg" alt="Inktober day 1" />
+      <p>ASHTI: Guess who just got a pack of Mega Sourz?</p>
+      <p>JUDITH: Urgh, I bet they're not even that sour</p>
+      <p>ASHTI: Oh, rea~lly? Have one then</p>
+
+      <h3 id="day2">DAY 2 - PRIZED POSSESSION</h3>
+      <img src="images/cryptidhunt_day2.jpg" alt="Inktober day 2" />
+      <p>Each panel is a different character's prized possession.</p>
+
+      <h3 id="day3">DAY 3 - CITRUS</h3>
+      <img src="images/cryptidhunt_day3.jpg" alt="Inktober day 3" />
+      <p>juice :)</p>
+
+      <h3 id="day4">DAY 4 - NEON</h3>
+      <img src="images/cryptidhunt_day4.jpg" alt="Inktober day 4" />
+      <p>
+        i am not skilled enough to draw a good neon light in just greyscale,
+        traditionally 👍
+      </p>
+    </main>
+    <footer>
+      <p>
+        <a href="https://sewyn.github.io">sewyn.github.io</a> - other links -
+        other links
+      </p>
+    </footer>
+  </body>
+</html>
